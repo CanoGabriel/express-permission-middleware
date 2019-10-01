@@ -1,0 +1,15 @@
+{
+  "administrator": {
+    "*": ["*"]
+  },
+  "member": {
+    "*": ["read"],
+    "article": ["read", "comment"]
+  },
+  "editor": {
+    "article": ["create","read","update","delete", "comment", "publish"]
+  },
+  "contributor": {
+    "article": ["create","read","update","delete", "comment"]
+  }
+}
